@@ -1,0 +1,57 @@
+{
+  "name": "react-blessed-practice",
+  "version": "1.0.0",
+  "description": "",
+  "main": "./build/index.js",
+  "babel": {
+    "presets": [
+      "@babel/preset-react",
+      "@babel/preset-env"
+    ]
+  },
+  "scripts": {
+    "prepublish": "npm run build",
+    "build": "babel src -d build",
+    "ui": "node ./build/index.js",
+    "devui": "babel-node ./src/index.jsx"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zenanswer/react-blessed-practice.git"
+  },
+  "keywords": [
+    "blessed",
+    "react",
+    "renderer",
+    "cli",
+    "interface"
+  ],
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/zenanswer/react-blessed-practice/issues"
+  },
+  "browserslist": "maintained node versions",
+  "homepage": "https://github.com/zenanswer/react-blessed-practice#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.4.4",
+    "@babel/core": "^7.4.4",
+    "@babel/node": "^7.2.2",
+    "@babel/preset-env": "^7.4.4",
+    "@babel/preset-react": "^7.0.0",
+    "@babel/register": "^7.4.4",
+    "babel-eslint": "^10.0.1",
+    "blessed": "^0.1.81",
+    "eslint": "^5.16.0",
+    "eslint-plugin-react": "^7.13.0",
+    "react": "^16.8.0",
+    "react-blessed": "^0.6.0",
+    "react-reconciler": "^0.20.4"
+  },
+  "dependencies": {
+    "blessed": "^0.1.81",
+    "react": "^16.8.6",
+    "react-blessed": "^0.6.0",
+    "react-reconciler": "^0.20.4"
+  }
+}
