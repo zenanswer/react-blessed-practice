@@ -52,6 +52,7 @@
     "blessed": "^0.1.81",
     "react": "^16.8.6",
     "react-blessed": "^0.6.0",
+    "react-blessed-contrib": "^0.2.1",
     "react-reconciler": "^0.20.4"
   }
 }
